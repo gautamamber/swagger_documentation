@@ -1,0 +1,33 @@
+# models name: Student
+# Fields: 
+# id: Integer
+# Name: String
+# Age: Integer
+# Gender: String
+# Contactno: Integer
+
+# API: GET, GET(by_ID),POST, POST(by_ID),PUT(by_ID), DELETE, DELETE(by_ID)
+
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: Student API
+  description: A simple Student model API
+  termsOfService: http://www.domain.com
+  contact:
+    name: Amber
+    email: amber@nickelfox.com
+    url: http://techfaq.in
+  license:
+    name: MIT
+    url: http://opensource.org/license/MIT
+host: student.swagger.info
+basePath: /api
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+
+
